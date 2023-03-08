@@ -1,0 +1,47 @@
+body{
+    background-color: rgb(0, 0, 0);
+    font-size:xx-large;
+    font-family: Poppins, Helvetica, sans-serif
+}
+
+h1{
+    text-align: center;
+
+}
+
+td{
+    display:inline;
+    text-align: center;
+}
+
+.Main{
+    text-align: center;
+    list-style-type: none;
+}
+
+.Splash{
+    cursor:pointer;
+    position:fixed;
+    top : 50%;
+    left : 50% ;
+    height : 95%;
+    width: 95%;
+    transform: translate(-50%, -50%);
+    background-color:rgba(0,0,0,0);
+    transition: all ease-in-out 500ms;
+}
+
+.hidden{
+    transition:0.5s;
+    display:none;
+}
+
+.Splash-Header{
+    height: 90%;
+    color:white;
+    font-family:'Poppins', Courier, monospace;
+    font-size:75px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
